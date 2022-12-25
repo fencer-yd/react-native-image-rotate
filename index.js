@@ -1,9 +1,16 @@
+/*
+ * @Author: fencer yangd@mshutech.com
+ * @Date: 2022-12-25 17:19:02
+ * @LastEditors: fencer yangd@mshutech.com
+ * @LastEditTime: 2022-12-25 17:19:55
+ * @FilePath: index
+ */
 /**
  * @providesModule ImageRotate
  * @flow
  */
-'use strict';
-import { NativeModules } from 'react-native';
+"use strict";
+import { NativeModules } from "react-native";
 
 const RCTImageRotateModule = NativeModules.ImageRotateModule;
 
@@ -21,12 +28,7 @@ export default class ImageRotate {
    * Angles divisible by 90 are supported, negative angles can be used for
    * counter-clockwise rotation.
    */
-  static rotateImage(
-    uri: string,
-    angle: number,
-    success: (uri: string) => void,
-    failure: (error: Object) => void
-  ) {
+  static rotateImage(uri, angle, success, failure) {
     RCTImageRotateModule.rotateImage(uri, angle, success, failure);
   }
 }

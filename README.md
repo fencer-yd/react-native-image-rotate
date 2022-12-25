@@ -1,3 +1,10 @@
+<!--
+ * @Author: fencer yangd@mshutech.com
+ * @Date: 2022-12-25 17:19:02
+ * @LastEditors: fencer yangd@mshutech.com
+ * @LastEditTime: 2022-12-25 17:23:10
+ * @FilePath: read me
+-->
 # react-native-image-rotate
 
 This project supports react-native >= 0.40.0
@@ -32,7 +39,7 @@ static rotateImage(
 
 ## Example
 
-Check the [Example directory](https://github.com/dgladkov/react-native-image-rotate/tree/master/Example)
+Check the [Example directory](https://github.com/fencer-yd/react-native-image-rotate/tree/master/Example)
 for a working iOS/Android example
 
 ## License
